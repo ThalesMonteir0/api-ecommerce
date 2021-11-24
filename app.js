@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 app.get('/produto1', (req, res) => {
     return res.json([
-        {nome: 'bola de Basquete',
+        {nome: 'Bola de Basquete',
          preco: 'R$100,00',
          desc:'Bola de basquete Oficial, modelo wilson'}
     ])
